@@ -157,4 +157,8 @@ $ sudo /home/fdl/bin/connect.sh
 <img src="../pictures/qrcode.jpg" width=200 >
 </p>
 
+<<<<<<< HEAD
 ======其他语言代码======
+=======
+[目录](../README.md#目录)
+>>>>>>> parent of 097abb2 (Update linuxshell.md)
