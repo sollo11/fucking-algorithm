@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< Updated upstream
 scoop bucket add github-gh https://github.com/cli/scoop-gh.git
 scoop install gh
 .github/ISSUE_TEMPLATE/translate.md
@@ -220,6 +221,29 @@ pictures/unionfind-application/1.jpg
 pictures/unionfind-application/2.jpg
 pictures/unionfind-application/3.jpg
 pictures/概率问题/p.png
+=======
+<<<<<<< HEAD
+.DS_store
+<<<<<<< Updated upstream
+=======
+Camera Roll/app/src/main/resources/templates/cs-CZ/bfsvc.exe.mui
+Camera Roll/app/src/main/resources/templates/cs-CZ/bootfix.bin
+Camera Roll/app/src/main/resources/templates/cs-CZ/explorer.exe.mui
+Camera Roll/app/src/main/resources/templates/cs-CZ/helppane.exe.mui
+Camera Roll/app/src/main/resources/templates/cs-CZ/hh.exe.mui
+Camera Roll/app/src/main/resources/templates/cs-CZ/notepad.exe.mui
+Camera Roll/app/src/main/resources/templates/cs-CZ/regedit.exe.mui
+Camera Roll/app/src/main/resources/templates/cs-CZ/twain_32.dll.mui
+Camera Roll/app/src/main/resources/templates/cs-CZ/winhlp32.exe.mui
+pictures/LRU算法/put.jpg
+pictures/qrcode.jpg
+pictures/souyisou.png
+pictures/table_qr2.jpg
+pictures/正则/1.jpeg
+pictures/正则/2.jpeg
+pictures/正则/3.jpeg
+pictures/正则/4.jpeg
+>>>>>>> Stashed changes
 README.md
 starHistory.jpg
 think_like_computer/BinarySearch.md
@@ -299,10 +323,19 @@ workflow.png
 高频面试系列/打印素数.md
 高频面试系列/接雨水.md
 =======
+=======
+>>>>>>> parent of 7cbf256 (Revert "$$")
 
 NanoVNA-F/
+<<<<<<< Updated upstream
 >>>>>>> origin/english
 .github/ISSUE_TEMPLATE/bug_report.md
+=======
+dynamic_programming/AnalysisOfDynamicProgramming.md
+pictures/backtrack/nqueens.png
+动态规划系列/AnalysisOfDynamicProgramming.md
+<<<<<<< HEAD
+>>>>>>> Stashed changes
 .github/ISSUE_TEMPLATE/others.md
 .github/ISSUE_TEMPLATE/translate.md
 common_knowledge/Cryptology.md
@@ -691,6 +724,7 @@ translation_requirements.md
 高频面试系列/k个一组反转链表.md
 高频面试系列/LRU算法.md
 高频面试系列/README.md
+<<<<<<< Updated upstream
 高频面试系列/一行代码解决的智力题.md
 高频面试系列/二分查找判定子序列.md
 高频面试系列/判断回文链表.md
@@ -704,3 +738,8 @@ translation_requirements.md
 高频面试系列/水塘抽样.md
 高频面试系列/消失的元素.md
 高频面试系列/缺失和重复的元素.md
+=======
+>>>>>>> parent of 69346b3 (Revert "Merge branch 'english' into API")
+=======
+>>>>>>> parent of 7cbf256 (Revert "$$")
+>>>>>>> Stashed changes

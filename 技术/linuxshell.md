@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Things you must know about Linux Shell 
 
 **Translator: [Tianhao Zhou](https://github.com/tianhaoz95)**
@@ -11,6 +12,9 @@ Although Windows has advantages over Linux in terms of graphical interfaces, due
 1. The difference between standard input and variables.
 
 2. Why processes running on the background exit upon terminal termination?
+=======
+我个人很喜欢使用 Linux 系统，虽然说 Windows 的图形化界面做的确实比 Linux 好，但是对脚本的支持太差了。一开始有点不习惯命令行操作，但是熟悉了之后反而发现移动鼠标点点点才是浪费时间的罪魁祸首。。。
+>>>>>>> Stashed changes
 
 3. Single-quotes vs. double-quotes.
 
@@ -94,11 +98,15 @@ An alternative approach to background execution is:
 $ nohup some_cmd &
 ```
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:技术/linuxshell.md
 `nohup`命令也是类似的原理，不过通过我的测试，还是`(cmd &)`这种形式更加稳定。
 =======
 `nohub` functions similarly, but with extensive testing, `(cmd &)` appears to be more stable.
 >>>>>>> Stashed changes:common_knowledge/linuxshell.md
+=======
+`nohup`命令也是类似的原理，不过通过我的测试，还是`(cmd &)`这种形式更加稳定。
+>>>>>>> Stashed changes
 
 ### 3. Single-quotes vs. double-quotes
 
@@ -114,7 +122,11 @@ As shown above, `echo $(cmd)` and `echo "$(cmd)"` differ slightly. Look closely,
 
 ### 4. How does `sudo` make commands `not found`?
 
+<<<<<<< Updated upstream
 Under certain situations, a command that non-privileged users can execute becomes "not found" when privileged users try to run with `sudo`:
+=======
+有时候我们普通用户可以用的命令，用`sudo`加权限之后却报错 command not found：
+>>>>>>> Stashed changes
 
 ```shell
 $ connect.sh
@@ -124,13 +136,18 @@ $ sudo connect.sh
 sudo: command not found
 ```
 
+<<<<<<< Updated upstream
 The root cause is that the `connect.sh` script only exists in the user's environment variables.
+=======
+原因在于，`connect.sh`这个脚本仅存在于该用户的环境变量中：
+>>>>>>> Stashed changes
 
 ```shell
 $ where connect.sh 
 /home/fdl/bin/connect.sh
 ```
 
+<<<<<<< Updated upstream
 **When prefixing `sudo`, we tell the OS that the `sudoer` is executing the command, so the OS will search the environment variables of the `sudoer`(defined in `/etc/sudoer`)** where the `connect.sh` script doesn't exist.
 
 <<<<<<< Updated upstream:技术/linuxshell.md
@@ -138,6 +155,11 @@ $ where connect.sh
 =======
 The solution is to locate the script with a path instead of a name:
 >>>>>>> Stashed changes:common_knowledge/linuxshell.md
+=======
+**当使用`sudo`时，系统认为是 root 用户在执行命令，所以会去搜索 root 用户的环境变量**，而这个脚本在 root 的环境变量目录中当然是找不到的。
+
+解决方法是使用脚本文件的绝对路径，而不是用脚本的相对路径：
+>>>>>>> Stashed changes
 
 ```shell
 $ sudo /home/fdl/bin/connect.sh
@@ -154,5 +176,8 @@ $ sudo /home/fdl/bin/connect.sh
 [下一篇：加密算法的前身今世](../技术/密码技术.md)
 
 [目录](../README.md#目录)
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes:common_knowledge/linuxshell.md
+=======
+>>>>>>> Stashed changes

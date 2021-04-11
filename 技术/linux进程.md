@@ -116,5 +116,17 @@ $ cmd1 | cmd2 | cmd3
 在 Linux 中新建线程和进程的效率都是很高的，对于新建进程时内存区域拷贝的问题，Linux 采用了 copy-on-write 的策略优化，也就是并不真正复制父进程的内存空间，而是等到需要写操作时才去复制。**所以 Linux 中新建进程和新建线程都是很迅速的**。
 
 坚持原创高质量文章，致力于把算法问题讲清楚，欢迎关注我的公众号 labuladong 获取最新文章：
+<<<<<<< Updated upstream
 
 ![labuladong](../pictures/labuladong.jpg)
+=======
+
+![labuladong](../pictures/labuladong.jpg)
+
+
+[上一篇：双指针技巧解题框架](../算法思维系列/双指针技巧.md)
+
+[下一篇：Git/SQL/正则表达式的在线练习平台](../技术/在线练习平台.md)
+
+[目录](../README.md#目录)
+>>>>>>> Stashed changes
